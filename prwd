@@ -19,7 +19,7 @@ def main():
     parser.add_argument('-A', action = 'store_const',
                         const = string.ascii_letters,
                         default = '',
-                        help = 'Password will contain ascii characters (default : yes)')
+                        help = 'Password will contain alphabetical characters (default : yes)')
     parser.add_argument('-D', action = 'store_const',
                         const = string.digits,
                         default = '',
