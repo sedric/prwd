@@ -14,6 +14,7 @@ Give command, recieve password :
 
 Ask for help, get help :
 ::
+
    usage: prwd [-h] [-A] [-D] [-S] [-n N]
 
    Pseudo-random password generator
